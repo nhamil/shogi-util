@@ -1,0 +1,20 @@
+[project]
+name = "shogi-util" 
+version = "0.0.1" 
+authors = [{ name="Nicholas Hamilton", email="nh.contact.1@gmail.com" }]
+description = "Utilities for shogi development" 
+requires-python = ">=3.7"
+
+[project.scripts]
+usiwrap = "shogiutil.usiwrapcli:main_cli"
+
+[project.urls]
+GitHub = "https://github.com/nhamil/shogi-util"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta" 
+
+[tool.setuptools]
+packages = ["shogiutil"]
+
